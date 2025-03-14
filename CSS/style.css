@@ -1,0 +1,93 @@
+.c1{
+width: 100%;
+height: 1000px;
+padding: 5px;
+background-color:#2c353a;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+grid-template-rows: repeat(6,1fr);
+grid-gap: 30px;
+grid-template-areas: 
+"c2 c2 c2 c2 c3 c3 c3    c3"
+"c4 c4 c4 c4 c4 c4  c4    c4"
+"c5 c6 c7 c8 c9 c9 c9 c10"
+"c5 c11 c12 c8  c13 c14 c14   c10"
+"c5 c11 c12 c8  c13 c15 c16   c10"
+"c5 c17 c17 c17 c17 c17 c17   c10";
+
+}
+.c{
+color: white;
+text-align: center;
+text-transform: uppercase;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 40px;
+
+}
+.c2{
+    grid-area:c2;
+    background-color:#138d75;
+}
+.c3{
+    grid-area: c3;
+    background-color: #138d75;
+}
+.c4{
+    grid-area: c4;
+    background-color: #117a65 ;
+}
+.c5{
+    grid-area: c5;
+    background-color: #0e6251;
+}
+.c6{
+    grid-area: c6;
+    background-color: #117864 ;
+}
+.c7{
+    grid-area: c7;
+    background-color: #148f77  ;
+}
+.c8{
+    grid-area: c8;
+    background-color: #148f77;
+}
+.c9{
+    grid-area: c9;
+    background-color: #17a589;
+}
+.c10{
+    grid-area: c10;
+    background-color: #1abc9c ;
+}
+.c11{
+    grid-area: c11;
+    background-color: #117864 ;
+}
+.c12{
+    grid-area: c12;
+    background-color: #148f77  ;
+}
+.c13{
+    grid-area: c13;
+    background-color: #17a589;
+}
+.c14{
+    grid-area: c14;
+    background-color: #1abc9c ;
+}
+.c15{
+    grid-area: c15;
+    background-color: #17a589;
+}
+.c16{
+    grid-area: c16;
+    background-color: #1abc9c ;
+}
+.c17{
+    grid-area: c17;
+    background-color:  #0e6251;
+}
